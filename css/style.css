@@ -5,20 +5,23 @@
 }
 
 .crucial-container{
-    width: 100%;
+    width: 1200px;
     height:100vh;
+    margin: 0px auto;
 }
 
 header{
     width:100%;
-    height:500px;
+    height:550px; 
     border: 3px red solid;
-}
+    background: yellow;
+ }
 
-.navbar{
+ .navbar{
     width: 100%;
     height: 60px;
     line-height: 50px;
+    background-color: white;
     border: 3px green solid;
     /* text-align: center; */
 }
@@ -45,4 +48,37 @@ ul{
 nav.navbar .menu-logo li, .menu-button li{
     display: inline-block;
     margin-left: 12px;
+}
+
+.container2{
+    border: 3px black solid;
+    margin-left: 160px;
+    margin-right:150px;
+    margin-top: 30px;
+    height: 500px;
+    background-color: blue;
+}
+
+ h1{
+    font-size:45px;
+}
+.container2-1{
+    margin-top: 30px;
+}
+.text1{
+    width:32%;
+    height: 300px;
+    line-height: 1.3;
+}
+
+.img1{
+    width: calc(60% - 20px);
+    margin-left: 20px;
+}
+
+.container3{
+    border: 3px black solid;
+    width:900px;
+    margin: 0px auto;
+    margin-top: 60px;
 }
