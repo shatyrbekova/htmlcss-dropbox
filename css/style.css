@@ -14,7 +14,7 @@ header{
     width:100%;
     height:550px; 
     border: 3px red solid;
-    background: rgb(49, 207, 223, 1);
+    background: rgb(188, 206, 251);
  }
 
  .navbar{
@@ -23,7 +23,6 @@ header{
     line-height: 50px;
     background-color: white;
     border: 3px green solid;
-    /* text-align: center; */
 }
 
 ul{
@@ -121,6 +120,29 @@ nav.navbar .menu-logo li, .menu-button li{
     height:50px;
     background: blue;
     color: white;
+}
+
+.con-enterprise{
+    width:100%;
+    height:200px;
+    border: 1px red solid;
+    margin-top: 30px;
+}
+
+.team3{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px lightgrey solid ;
+}
+
+.enterprise-text{
+    width:70%;
+}
+
+.enbutton{
+    width:30%;
+    text-align: center;
 }
 /* .pen::before{
     content:"\1F589";
