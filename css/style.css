@@ -81,7 +81,7 @@ nav.navbar .menu-logo li, .menu-button li{
 
 .container3{
     border: 3px black solid;
-    width:900px;
+    width:1000px;
     margin: 0px auto;
     margin-top: 60px;
 }
@@ -147,3 +147,20 @@ nav.navbar .menu-logo li, .menu-button li{
 /* .pen::before{
     content:"\1F589";
 } */
+
+.con-image2{
+    width:100%;
+    height:550px;
+    border: 2px yellow solid;
+}
+.im-partners{
+    width: 60%;
+    border: 3px rgb(188, 206, 251) solid;
+}
+
+/* Da rivedere margin-top*/
+.text-partners{
+    width:calc(40% - 70px);
+    margin-top: 70px;
+    height:300px;
+}
