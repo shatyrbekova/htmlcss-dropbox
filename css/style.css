@@ -205,7 +205,9 @@ nav.navbar .menu-logo li, .menu-button li{
 [class^="logo-"]{
     width: 50%;
     height: 250px;
+    line-height: 290px;
     border: 3px purple solid;
+    text-align: center;
 }
 /* .box-designit, .box-world{
     width:30%;
