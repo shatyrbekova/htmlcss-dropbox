@@ -326,6 +326,7 @@ footer{
 footer hr{
     margin-top: 70px;
     margin-bottom: 40px;
+    width: 100px;
 }
 /* .common hr{
    padding-top: 20px;
