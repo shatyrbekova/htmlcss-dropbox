@@ -103,16 +103,33 @@ nav.navbar .menu-logo li, .menu-button li{
     height:40px;
     text-align: center;
     line-height: 40px;
-    border: 1px  1lightgrey solid;
+    border: 1px  lightgray solid;
 }
+
 
 .center{
     border: 4px greenyellow solid;
     padding: 15px;
 }
 
-.propose::before{
+.container3-1 hr{
+    width:20%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.utente li{
+   margin-top: 20px;
+  
+  
+}
+
+.list-table li{
+    margin-top: 20px;
+}
+.list-table li::before{
     content:"\2713";
+    color:blue;
+    float: left;
     margin-right: 5px;
 }
 
@@ -126,7 +143,7 @@ nav.navbar .menu-logo li, .menu-button li{
 .con-enterprise{
     width:100%;
     height:200px;
-    border: 1px red solid;
+    /* border: 1px red solid; */
     margin-top: 30px;
 }
 
@@ -142,8 +159,14 @@ nav.navbar .menu-logo li, .menu-button li{
 }
 
 .enbutton{
-    width:30%;
-    text-align: center;
+    width:20%;
+    height: 35px;
+    position: relative;
+    left:50px;
+    top:20px;
+    background-color:  blue;
+    color: white;
+
 }
 
 .con-image2{
@@ -153,16 +176,22 @@ nav.navbar .menu-logo li, .menu-button li{
 }
 .im-partners{
     width: 60%;
-    border: 3px rgb(188, 206, 251) solid;
+    /* border: 3px rgb(188, 206, 251) solid; */
 }
 
 /* Da rivedere margin-top*/
 .text-partners{
-    width:calc(40% - 70px);
+    width:calc(40% - 90px);
     margin-top: 70px;
+    margin-left: 20px;
     height:300px;
 }
 
+.partner-button{
+    width: 140px;
+    height: 35px;
+    background-color: white;
+}
 .dropbox-business{
     width:100%;
     height:900px;
@@ -289,7 +318,8 @@ nav.navbar .menu-logo li, .menu-button li{
 }
 
 .basso{
-    margin-left: 200px;
+    margin-left: 100px;
+    font-size: 25px;
 }
 
 footer{
@@ -328,6 +358,3 @@ footer hr{
     margin-bottom: 40px;
     width: 100px;
 }
-/* .common hr{
-   padding-top: 20px;
-} */
