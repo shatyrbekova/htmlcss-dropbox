@@ -5,14 +5,14 @@
 }
 
 .crucial-container{
-    width: 1200px;
+    width: 100%px;
     height:100vh;
     margin: 0px auto;
 }
 
 header{
     width:100%;
-    height:550px; 
+    height:585px; 
     border: 3px red solid;
     background: rgb(188, 206, 251);
  }
@@ -39,7 +39,7 @@ ul{
     float:left;
 }
 
-.fr{
+.fr,.common-questions span{
     float: right;
 }
 
@@ -48,67 +48,70 @@ nav.navbar .menu-logo li, .menu-button li{
     margin-left: 12px;
 }
 
-.button-header{
-    width:210px;
-    height:50px;
-    background: blue;
-    color:white;
-}
-.container2{
-    border: 3px black solid;
-    margin-left: 160px;
-    margin-right:150px;
-    margin-top: 30px;
+.container-header{
+    /* border: 3px black solid; */
+    margin: 30px 120px 0  120px;
     height: 500px;
 }
 
- h1{
-    font-size:45px;
+.button-header{
+    width:230px;
+    height:40px;
+    background: blue;
+    color:white;
 }
-.container2-1{
+
+ header h1{
+    font-size:54px;
+}
+.container-tutto{
     margin-top: 30px;
 
 }
-.text1{
-    width:32%;
+.text-first{
+    width:28%;
     height: 300px;
     line-height: 1.3;
 }
 
 .img1{
-    width: calc(60% - 20px);
+    width: calc(72% - 50px);
+    margin-left: 50px;
+}
+
+.container-offer{
+    width:1000px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+#input-radio{
+    width:100%;
+    height: 30px;
+    margin: 20px 0 30px 0;
+}
+.container-offer #input-fatturazione{
     margin-left: 20px;
 }
 
-.container3{
-    border: 3px black solid;
-    width:1000px;
-    margin: 0px auto;
-    margin-top: 60px;
-}
-
-.container3-1{
+/* .container3-1{
     width:100%;
-    border: 3px orange solid;
-}
+} */
 
 [class^="offer-"]{
     width: calc(33.3% - 35px);
+    height:850px;
     margin-right:35px;
-    margin-top: 20px;
-    border: 3px rgb(105, 133, 64) solid;
+    border: 2px lightgray solid;
 }
 
 .singolo{
     height:40px;
     text-align: center;
     line-height: 40px;
-    border: 1px  lightgray solid;
+    border-bottom: 1px lightgray solid;
 }
 
-
 .center{
-    border: 4px greenyellow solid;
     padding: 15px;
 }
 
@@ -118,14 +121,13 @@ nav.navbar .menu-logo li, .menu-button li{
     margin-top: 20px;
 }
 .utente li{
-   margin-top: 20px;
-  
-  
+   margin-top: 20px;  
 }
 
 .list-table li{
     margin-top: 20px;
 }
+
 .list-table li::before{
     content:"\2713";
     color:blue;
@@ -134,20 +136,21 @@ nav.navbar .menu-logo li, .menu-button li{
 }
 
 .button-offer{
-    width: 210px;
+    width: 250px;
     height:50px;
     background: blue;
     color: white;
-}
-
-.con-enterprise{
-    width:100%;
-    height:200px;
-    /* border: 1px red solid; */
     margin-top: 30px;
 }
 
-.team3{
+.container-enterprise{
+    width:100%;
+    height:200px;
+    border: 1px lightgray solid;
+    margin-top: 30px;
+}
+
+.team-enterprise{
     height: 40px;
     line-height: 40px;
     text-align: center;
@@ -156,13 +159,18 @@ nav.navbar .menu-logo li, .menu-button li{
 
 .enterprise-text{
     width:70%;
+    padding: 20px 0 0 25px;
+}
+
+.enterprise-text p{
+    font-size: 15px;
 }
 
 .enbutton{
     width:20%;
     height: 35px;
     position: relative;
-    left:50px;
+    left:60px;
     top:20px;
     background-color:  blue;
     color: white;
@@ -172,30 +180,37 @@ nav.navbar .menu-logo li, .menu-button li{
 .con-image2{
     width:100%;
     height:550px;
-    border: 2px yellow solid;
+    margin-top: 100px;
+    /* border: 2px yellow solid; */
 }
 .im-partners{
-    width: 60%;
-    /* border: 3px rgb(188, 206, 251) solid; */
+    width: 56%;
+    margin-right: 50px;
 }
 
 /* Da rivedere margin-top*/
 .text-partners{
-    width:calc(40% - 90px);
+    width:calc(44% - 100px);
     margin-top: 70px;
-    margin-left: 20px;
-    height:300px;
+    margin-left: 30px;
+    height:200px;
 }
 
 .partner-button{
     width: 140px;
     height: 35px;
+    border: 1px lightgray solid;
     background-color: white;
 }
 .dropbox-business{
     width:100%;
     height:900px;
-    border: 4px orchid solid;
+    margin-top: 30px;
+}
+
+.dropbox-business h1{
+    margin-bottom: 40px;
+    font-size: 45px;
 }
 
 .part-images{
@@ -210,6 +225,14 @@ nav.navbar .menu-logo li, .menu-button li{
     
 }
 
+.explore-more{
+    width: 45%;
+    margin-top: 70px;
+}
+
+.explore-more h1{
+    font-size: 35px;
+}
 .logos-university{
     width: 100%;
     height: 500px;
@@ -300,10 +323,10 @@ nav.navbar .menu-logo li, .menu-button li{
 }
 
 .common-questions{
-    width: 900px;
+    width: 800px;
     height: 600px;
     position: relative;
-    left:250px;
+    left:270px;
     padding-top: 100px;
     line-height: 70px;
 }
@@ -317,7 +340,7 @@ nav.navbar .menu-logo li, .menu-button li{
 }
 
 .common-questions span{
-   float: right;
+   /* float: right; */
    margin-right: 30px;
    font-size: 25px;
 }
