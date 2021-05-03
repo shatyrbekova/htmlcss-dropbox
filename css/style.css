@@ -236,6 +236,7 @@ nav.navbar .menu-logo li, .menu-button li{
     line-height: 290px;
     border: 3px purple solid;
     text-align: center;
+    filter:invert();
 }
 
 .logo-1{
