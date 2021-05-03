@@ -126,15 +126,23 @@ nav.navbar .logo li, .menu li, .menu-button li{
     padding: 15px;
 }
 
-.container3-1 hr{
+.container-purpose hr{
     width:20%;
     margin-bottom: 20px;
     margin-top: 20px;
 }
+
 .utente li{
    margin-top: 20px;  
 }
 
+
+.utente .emoji::before{
+    content:"\263A";
+    float: left;
+    height: 40px;
+    margin-right: 5px;
+}
 .list-table li{
     margin-top: 20px;
 }
@@ -146,6 +154,12 @@ nav.navbar .logo li, .menu li, .menu-button li{
     margin-right: 5px;
 }
 
+.utente .icon-pencil::before{
+    content:"\270E";
+    float: left;
+    height:45px;
+    margin-right: 5px;
+}
 .button-offer{
     width: 250px;
     height:50px;
@@ -192,14 +206,12 @@ nav.navbar .logo li, .menu li, .menu-button li{
     width:100%;
     height:550px;
     margin-top: 100px;
-    /* border: 2px yellow solid; */
 }
 .im-partners{
     width: 56%;
     margin-right: 50px;
 }
 
-/* Da rivedere margin-top*/
 .text-partners{
     width:calc(44% - 100px);
     margin-top: 70px;
@@ -254,7 +266,6 @@ nav.navbar .logo li, .menu li, .menu-button li{
 
 [class^="box-"]{
     width: calc(100% / 3);
-    border: 3px purple solid;
     height:500px;
 }
 
@@ -262,7 +273,6 @@ nav.navbar .logo li, .menu li, .menu-button li{
     width: 50%;
     height: 250px;
     line-height: 290px;
-    border: 3px purple solid;
     text-align: center;
     /* filter:invert(); */
 }
@@ -374,21 +384,16 @@ footer{
      position: relative;
      left: 250px;
      top: 100px;
-     border: 4px yellow solid;
  }
 
  .last-section ul{
-     display: inline-block;
      margin-right: 55px;
+     float: left;
  }
 
  .service{
     margin-bottom: 20px;
 }
-
-/* ul #service-special{
-    margin-top: 25px;
-} */
 
  footer .list-service{
   margin-bottom: 20px;
