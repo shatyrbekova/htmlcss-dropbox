@@ -111,12 +111,15 @@ nav.navbar .logo li, .menu li, .menu-button li{
 }
 
 [class^="offer-"]{
-    width: calc(33.3% - 35px);
+    width: calc(100% / 3 - 20px);
     height:850px;
-    margin-right:35px;
     border: 2px lightgray solid;
 }
 
+.offer-2{
+   margin-left: 30px;
+   margin-right: 30px;
+}
 .singolo{
     height:40px;
     text-align: center;
@@ -241,7 +244,7 @@ nav.navbar .logo li, .menu li, .menu-button li{
     width: calc((100% / 3) - 30px);
     margin: 15x;
     padding:15px;
-    min-height: 400px;
+    min-height: 440px;
 }
 
 [class^="img-"] img {
@@ -276,12 +279,12 @@ nav.navbar .logo li, .menu li, .menu-button li{
     line-height: 290px;
     text-align: center;
 }
-class^="logo-"] img{
-    filter:white;
+[class^="logo-"] img{
+    filter:grayscale();
 }
+
 .logo-designit{
     background-color: #a2d39b;
-   
 }
 
 .logo-asu{
